@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+body{
+    /* background-image: url(../images/growpacker.png); */
+}
+header{
+    background-color: #292929;
+}
+.header_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292929;
+    padding: 20px 0;
+}
+.logo{
+
+width: 20%;
+
+display: flex;
+}
+.logo img{
+
+width: 100%;
+}
+nav{
+
+width: 70%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+
+align-items: center;
+}
+nav ul li{
+    margin-left: 26px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-weight: 700;
+
+font-size: 16px;
+}
+nav ul li button{
+    
+padding: 8px 14px;
+    
+text-transform: uppercase;
+    
+font-size: 11.8px;
+    
+background-color: #71e987;
+    
+border: 1px solid #71e987;
+    
+border-radius: 3px;
+    
+font-weight: 700;
+    
+color: #fff;
+    
+letter-spacing: -.1px;
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+
+nav ul li button:hover{
+    background-color:transparent;
+}
+.banner{
+
+}
+.banner_video{}
+
+.banner_video video{
+    width: 100%;
+    /* height: 100vh;; */
+    position: relative;
+    z-index: -1;
+}
+.packing_overlay{
+
+width: 57%;
+
+margin: auto;
+
+background-color: #292929;
+
+opacity: 0.7;
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+padding: 25px 0;
+
+}
+
+.packing_overlay h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;font-size: 50px;
+    margin: 9px 0px;
+    
+}
+.packing_overlay p{
+
+color: #fff;
+
+font-size: 13px;
+
+text-align: center;
+
+background-color: #000000;
+
+padding: 9px 0;
+}
+.button_wrapper{
+
+text-align: center;
+
+margin: 10px 0;
+
+margin: 18px;
+}
+.button_wrapper button{
+    padding: 8px 14px;
+    
+text-transform: uppercase;
+    
+font-size: 11.8px;
+    
+background-color: #71e987;
+    
+border: 1px solid #71e987;
+    
+border-radius: 3px;
+
+    
+font-weight: 700;
+    
+color: #fff;
+    
+letter-spacing: -.1px;
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+.button_wrapper button:hover{
+    background-color:transparent;
+}
